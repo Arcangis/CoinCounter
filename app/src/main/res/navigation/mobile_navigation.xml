@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.nativeopencvandroidtemplate.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/home" />
+
+    <fragment
+        android:id="@+id/navigation_counter"
+        android:name="com.example.nativeopencvandroidtemplate.CounterFragment"
+        android:label="@string/title_counter"
+        tools:layout="@layout/counter" />
+
+    <fragment
+        android:id="@+id/navigation_convert"
+        android:name="com.example.nativeopencvandroidtemplate.ConvertFragment"
+        android:label="@string/title_convert"
+        tools:layout="@layout/convert_price" />
+</navigation>
