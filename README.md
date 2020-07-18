@@ -34,10 +34,10 @@ To train this model, we created a dataset from scratch and labeled all images us
 | 1.00       | 0.98  |
 
  Confusion Matrix:
- [49.  0.  1.  0.  0.]
- [ 1. 58.  0.  1.  0.]
- [ 0.  1. 65.  0.  0.]
- [ 0.  2.  0. 63.  0.]
+ [49.  0.  1.  0.  0.]<br/>
+ [ 1. 58.  0.  1.  0.]<br/>
+ [ 0.  1. 65.  0.  0.]<br/>
+ [ 0.  2.  0. 63.  0.]<br/>
  [ 0.  0.  1.  0. 58.]
 
 
