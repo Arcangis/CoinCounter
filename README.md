@@ -12,9 +12,9 @@ This application was designed to make the tedious task of counting coins quicker
 
 It uses the smartphone camera to identify the value of each coin in an image and displays the sum of them. It also has a currency-convert calculator, where you can fill an amount and an exchange rate, and it returns the conversion result.
 
-<p align="center">
-  ![alt text](images/result.jpeg)
-</p>
+
+!alt text](images/result.jpeg)
+
 
 ## How we built it
 
