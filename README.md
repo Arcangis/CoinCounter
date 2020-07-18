@@ -12,23 +12,24 @@ This application was designed to make the tedious task of counting coins quicker
 
 It uses the smartphone camera to identify the value of each coin in an image and displays the sum of them. It also has a currency-convert calculator, where you can fill an amount and an exchange rate, and it returns the conversion result.
 
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Arcangis/CoinCounter/img/result.jpeg?raw=true">
+</p>
+
 ## How we built it
 
-Using the Android Studio API, as well as Pytorch and OpenCV.
+Using the Android Studio API, as well as Pytorch, OpenCV and Jsoup.
+
+## Machine Learning
+
+We trained a Convolutional Neural Network model called MobileNetV2, which we download from the Torchvision Python package. This model is more suitable for use in mobile devices, as it optimizes the number of floating-point operations needed for inference. 
+To train this model, we created a dataset from scratch and labeled all images using the software Colabeler (Link: http://www.colabeler.com/).
 
 ## How to use this application
 
 Once you access the app, you can choose to use the counter or the currency converter.
 If you choose the counter, you must point your smartphone's camera at the coins, which must be on a flat, opaque surface, and then you can view the count value.
 If you choose the converter, you must inform the quantity and the exchange rate, and then you can view the converted value.  
-
-## Challenges we ran into
-
-We have almost no experience in programming in java and XML, and it's the first time we made an application that uses the android camera, pytorch_android and OpenCV for Android.
-
-## What we learned
-
-We learned significant aspects of the Java language, as well as how to perform image morphology with OpenCV for Android and how to translate a PyTorch model to Android.
 
 ## What's next for My Coin Counter
 
