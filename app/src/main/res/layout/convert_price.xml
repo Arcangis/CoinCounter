@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-medium"
         android:gravity="center"
-        android:text="Quantity:"
+        android:text="Price:"
         android:textColor="#303030"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/text_quantity_from"
@@ -27,8 +27,7 @@
     <View
         android:id="@+id/divider"
         android:layout_width="1dp"
-        android:layout_height="200dp"
-        android:layout_marginTop="25dp"
+        android:layout_height="150dp"
         android:background="?android:attr/listDivider"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -62,7 +61,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
         android:text="Convert"
+        app:layout_constraintBottom_toTopOf="@+id/imageView_underconstruction"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -121,7 +122,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginEnd="5dp"
-        android:layout_marginBottom="52dp"
+        android:layout_marginBottom="25dp"
         android:ems="10"
         android:gravity="center"
         android:importantForAutofill="no"
@@ -137,12 +138,12 @@
         android:layout_height="45dp"
         android:layout_gravity="center"
         android:layout_marginStart="5dp"
-        android:layout_marginBottom="52dp"
+        android:layout_marginBottom="25dp"
         android:ems="10"
-        android:text="--.--"
         android:gravity="center"
         android:importantForAutofill="no"
         android:inputType="number"
+        android:text="--.--"
         app:layout_constraintBottom_toTopOf="@+id/button_scrapper"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.461"
@@ -151,15 +152,14 @@
 
     <ImageView
         android:id="@+id/imageView_underconstruction"
-        android:layout_width="212dp"
-        android:layout_height="297dp"
+        android:layout_width="176dp"
+        android:layout_height="250dp"
+        android:layout_marginBottom="50dp"
         android:src="@drawable/underconstruction"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_scrapper"
-        app:layout_constraintVertical_bias="0.248" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </android.support.constraint.ConstraintLayout>
