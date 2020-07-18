@@ -7,6 +7,7 @@ Coin Counter is an easy-to-use Android application that can count how much money
 ## Inspiration
 
 This application was designed to make the tedious task of counting coins quicker and less tiring, especially for small commerce, who always receive a lot of them from their clients.  It also intends to help small business owners and costumers not to touch in coins as a measure of preventing the spread of COVID-19.
+Initially, our machine learning model was projected to achieve its task in a raspberry pie 3, ideally stopped at a determined position with a dark background allowing better recognition, but due to a loss of hardware we opted to implement it in an Android application which is also a good fit for this model.
 
 ## What it does
 
