@@ -25,6 +25,22 @@ Using the Android Studio API, as well as Pytorch, OpenCV and Jsoup.
 We trained a Convolutional Neural Network model called MobileNetV2, which we download from the Torchvision Python package. This model is more suitable for use in mobile devices, as it optimizes the number of floating-point operations needed for inference. 
 To train this model, we created a dataset from scratch and labeled all images using the software Colabeler (Link: http://www.colabeler.com/).
 
+| Precision  | Recal |
+| ---        |  ---  |
+| 0.98       | 0.98  |
+| 0.95       | 0.97  |
+| 0.97       | 0.98  |
+| 0.98       | 0.97  |
+| 1.00       | 0.98  |
+
+ Confusion Matrix:
+ [49.  0.  1.  0.  0.]
+ [ 1. 58.  0.  1.  0.]
+ [ 0.  1. 65.  0.  0.]
+ [ 0.  2.  0. 63.  0.]
+ [ 0.  0.  1.  0. 58.]
+
+
 ## How to use this application
 
 Once you access the app, you can choose to use the counter or the currency converter.
