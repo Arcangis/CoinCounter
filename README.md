@@ -13,7 +13,7 @@ This application was designed to make the tedious task of counting coins quicker
 It uses the smartphone camera to identify the value of each coin in an image and displays the sum of them. It also has a currency-convert calculator, where you can fill an amount and an exchange rate, and it returns the conversion result.
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/Arcangis/CoinCounter/img/result.jpeg?raw=true">
+  <img width="460" height="300" src="https://github.com/Arcangis/CoinCounter/images/result.jpeg?raw=true">
 </p>
 
 ## How we built it
