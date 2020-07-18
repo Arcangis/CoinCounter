@@ -33,7 +33,7 @@ To train this model, we created a dataset from scratch and labeled all images us
 | 0.98       | 0.97  |
 | 1.00       | 0.98  |
 
- Confusion Matrix:
+ Confusion Matrix:<br/>
  [49.  0.  1.  0.  0.]<br/>
  [ 1. 58.  0.  1.  0.]<br/>
  [ 0.  1. 65.  0.  0.]<br/>
