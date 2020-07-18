@@ -23,7 +23,7 @@ Using the Android Studio API, as well as Pytorch, OpenCV and Jsoup.
 ## Machine Learning
 
 We trained a Convolutional Neural Network model called MobileNetV2, which we download from the Torchvision Python package. This model is more suitable for use in mobile devices, as it optimizes the number of floating-point operations needed for inference. 
-To train this model, we created a dataset from scratch ((link: https://www.kaggle.com/ronaldosm96/brazilian-coins-dataset)) and labeled all images using the software Colabeler (Link: http://www.colabeler.com/).
+To train this model, we created a dataset from scratch (link: https://www.kaggle.com/ronaldosm96/brazilian-coins-dataset) and labeled all images using the software Colabeler (Link: http://www.colabeler.com/).
 
 | Precision  | Recal |
 | ---        |  ---  |
