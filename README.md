@@ -1,4 +1,4 @@
-## NOT FINISHED YET!
+## NOT FINISHED YET! -- need to update scrapper of the currencies. 
 
 ## Introduction
 
