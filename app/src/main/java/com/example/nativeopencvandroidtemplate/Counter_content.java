@@ -66,7 +66,7 @@ public class Counter_content extends Activity implements CvCameraViewListener2 {
         super.onCreate(savedInstanceState);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
-        classifier = new Classifier(Utils2.assetFilePath(this,"MyMobileNetV3.pt"));
+        classifier = new Classifier(Utils2.assetFilePath(this,"MyMobileNet.pt"));
 
         // Permissions for Android 6+
         ActivityCompat.requestPermissions(
