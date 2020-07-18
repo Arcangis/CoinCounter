@@ -24,6 +24,7 @@
         android:id="@+id/textView_manual_4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
         android:layout_marginEnd="25dp"
         android:fontFamily="sans-serif-medium"
         android:gravity="center"
@@ -51,67 +52,69 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         android:fontFamily="sans-serif-medium"
         android:gravity="center"
         android:text="3.Wait until the camera focus."
         android:textColor="#303030"
         android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_manual_" />
+        app:layout_constraintBottom_toTopOf="@+id/textView_manual_3"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView_manual_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="90dp"
         android:fontFamily="sans-serif-medium"
         android:gravity="center"
         android:text="4.Voilà! The app will count!"
         android:textColor="#303030"
         android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_manual_2" />
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView_manual_"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         android:fontFamily="sans-serif-medium"
         android:gravity="center"
         android:text="2. Use the camera to film them."
         android:textColor="#303030"
         android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_manual_1" />
+        app:layout_constraintBottom_toTopOf="@+id/textView_manual_2"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button_start"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
         android:layout_marginBottom="25dp"
         android:text="start"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.544"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView_manual_6"
-        app:layout_constraintVertical_bias="0.36" />
+        app:layout_constraintVertical_bias="0.365" />
 
     <TextView
         android:id="@+id/textView_counter_manual"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="128dp"
+        android:layout_height="64dp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15dp"
         android:fontFamily="sans-serif-medium"
         android:gravity="center"
         android:text="How to use:"
         android:textColor="#303030"
         android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView_manual_1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -120,19 +123,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
         android:fontFamily="sans-serif-medium"
         android:gravity="center"
         android:text='1. Click on the "Start" button.'
         android:textColor="#303030"
         android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_counter_manual" />
+        app:layout_constraintBottom_toTopOf="@+id/textView_manual_"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="130dp"
-        android:layout_height="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="35dp"
         android:src="@drawable/robothowto"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -142,7 +146,7 @@
         android:layout_width="130dp"
         android:layout_height="150dp"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="124dp"
+        android:layout_marginBottom="160dp"
         android:src="@drawable/robotimportant"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/textView_manual_6"
